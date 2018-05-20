@@ -26,6 +26,7 @@ module Facebook
         message_echo
         payment
         policy_enforcement
+        game_play
       ].freeze
 
       class << self
