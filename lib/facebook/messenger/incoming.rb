@@ -33,7 +33,7 @@ module Facebook
         'message_request' => MessageRequest,
         'payment' => Payment,
         'policy_enforcement' => PolicyEnforcement,
-        'messaging_game_plays' => GamePlay
+        'game_play' => GamePlay
       }.freeze
 
       # Parse the given payload and create new object of class related
